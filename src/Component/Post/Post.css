@@ -1,0 +1,28 @@
+.main_post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+  
+
+}
+.card{
+    width: calc(100% - 10px);
+    margin-bottom: 20px;
+    background-color: #f7f0f0;
+    border: 1px solid #383333;
+    padding: 10px;
+    box-sizing: border-box;
+    height: calc(33.3% - 10px);
+
+}
+.colu{
+    border-left: solid 1px #383333;
+}
+.row{
+    margin-bottom: 0;
+}
+.card-title{
+font-size: 1.7rem;
+font-weight: 700;
+}

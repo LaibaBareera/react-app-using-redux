@@ -1,0 +1,74 @@
+.container{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.bv2{
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+.bv2_user_name{
+
+    color: #36404d;
+    font-weight: bolder;
+    display: inline;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.bv2_event{
+    position: relative;
+    border-bottom: 1px solid;
+    border-bottom-color:#37393c ;
+    width: 100%;
+    display: block;
+}
+.bv2_info{
+    position: absolute;
+  top: 30%; /* adjust as needed */
+  right: 0;
+  transform: translateY(-50%);
+  padding: 10px;
+  
+  }
+  .data{
+    padding-top:20px;
+    position: relative;
+  }
+  .budy{
+    font-size: 0.9rem;
+    justify-content: baseline;
+  }
+  .input{
+    width: 100%;
+    padding: 12px 20px;
+   margin-top: 1vh;
+  color: black;
+  height: 20vh;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  .edit{
+    color: #09ab2f;
+    margin-left: 40%;
+  }
+  
+  .del{
+    color:black;
+    border: solid 1px white;
+    border-radius: 100%;
+  }
+  .del:hover{
+    color:red;
+    background-color: aliceblue;
+  }
+  .edit{
+    color:black;
+    border: solid 1px white;
+    border-radius: 100%;
+  }
+  .edit:hover{
+    color: #09ab2f;
+    background-color: aliceblue;
+  }

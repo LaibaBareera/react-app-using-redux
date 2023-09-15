@@ -1,0 +1,22 @@
+.ic{
+    padding-right: 50px;
+}
+.topNav{
+    position: fixed;
+    top: 0%;
+    height: 50px;
+    padding: 20px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.nav-item{
+    margin-right:3vh ;
+    font-size: large;
+}
+.active{
+    color: #139ae3;
+}

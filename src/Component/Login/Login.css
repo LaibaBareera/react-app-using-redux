@@ -1,0 +1,134 @@
+.Container{
+  background-color: #e1d3d3;
+  margin-left: 0;
+  margin-top: 15vh;
+align-items: center;
+  /* background-color: #000; */
+    color: #101010;
+    justify-content: center;
+    opacity: 0.8;
+
+  width: 55vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+.main{
+
+  margin-left:35%;
+
+}
+.edit-btn{
+  margin-top: 2vh;
+  width: 40vh;
+  background-color: red;
+  color: white;
+  height: 6vh;
+  padding: 14px 20px;
+  margin-left: 10%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Post-btn{
+  margin-top: 2vh;
+  width: 40vh;
+  background-color: red;
+  color: white;
+  height: 6vh;
+  padding: 14px 20px;
+  margin-left: 15%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.title{
+font-size: 1.6rem;
+padding-left: 7vh;
+margin-left: 13vh;
+padding-top: 5vh;
+margin-top: 1vh;
+font-weight: bolder;
+
+}
+.lab{ 
+  font-size: 14px;
+  margin-top: 2vh;
+  font-weight: 600;
+  margin-left: 1vh;
+  color: rgb(8, 8, 8);
+
+}
+.form{
+  display: grid;
+ 
+} 
+.inp {
+  padding: 12px 20px;
+
+color: black;
+background: none;
+  display: inline-block;
+ border: none;
+ outline:none;
+ width: 92%;
+}
+.pa{
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 3vh;
+  width: 90%;
+
+}
+.ico{
+  margin-top: 12px;
+}
+.inpu{
+  width: 90%;
+  padding: 12px 20px;
+  margin-left: 3vh;
+color: black;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-btn{
+  margin-top: 2vh;
+  width: 40vh;
+  background-color: red;
+  color: white;
+  height: 6vh;
+  padding: 14px 20px;
+  margin-left: 8vh;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.error{
+  margin-top: 0vh;
+margin-bottom: 1vh;
+margin-left: 4vh;
+font-size: small ;
+}
+.login-btn:hover{
+    background-color: #5c92d1;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn:hover {
+  background-color: #5c92d1;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.line{
+  width: 60vh;
+  margin-left: 12vh;
+}
